@@ -1,17 +1,3 @@
-"# Getting_And_Cleaning_Data_Mentor_Graded_Assignment" 
-
-How the script works:
-
-- Uses data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-- Combines x data (measurements) with y data (each of 60 activites corresponding to mean and std values) for each of 30 subjects
-- Uses features.txt to name the measurements (columns from x data)
-- Resultant data set shows Subject code, Activity description, and measurement values
-- Merges test and training data
-- Creates a new data set that shows the average of each measurement per person per activity.  
-  - 30 subjects x 60 activities = 180 rows with the average for each subject/activity/measurement combo
-  
-  
-CODEBOOK:
 =========================================================================================
 
    subject
@@ -1229,6 +1215,4 @@ CODEBOOK:
           Mean:   0.126
        3rd Qu.:   0.208
           Max.:   0.426
-
-
 
